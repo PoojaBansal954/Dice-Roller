@@ -13,7 +13,7 @@ while(running){
         window.alert("Enter a valid no")
     }
     else if(guess<min||guess>max){
-        window.alert(`Enter a no b/w ${min} and ${max}`);
+        window.alert(`Enter no in valid range`)
     }
     else{
         attempt++;
@@ -24,7 +24,7 @@ while(running){
           window.alert("TOO Low! Enter again")
         }
         else{
-            window.alert("You guess the no.correctly in ${attempt} attempts ")
+            window.alert(`Correct!The no.was ${answer}, you take ${attempts}attempts`);
             running=false;
         }
     }
