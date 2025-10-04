@@ -25,6 +25,7 @@ while(running){
         }
         else{
             window.alert("You guess the no.correctly in ${attempt} attempts ")
+            running=false;
         }
     }
 }
