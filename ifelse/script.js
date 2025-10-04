@@ -9,7 +9,7 @@ mySubmit.onclick=function(){
        // console.log("U cant vote")
        resultElement.textContent="U cant vote";
     
-        if(age==0){
+        if(age<=0){
         resultElement.textContent ="Enter valid age";
     }
 }
